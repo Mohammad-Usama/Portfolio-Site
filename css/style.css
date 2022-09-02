@@ -4,16 +4,24 @@ html, body{
     padding: 0;
     background-color: #E5E5E5;
 }
+h1, p, h2, h3{
+    margin: 0;
+}
 #post{
     background-color: #EDF7FA;
 }
 header nav{
     height: 50px;
     background-color: #fff;
-
+    display: flex;
+    justify-content: end;
+    padding-right: 60px;
 }
 header nav ul{
     margin: 0;
+    display: flex;
+    align-items: center;
+    gap:33px;
 
 }
 header nav li{
@@ -30,4 +38,56 @@ text-align: right;
 
 color: #000000;
     
+}
+.main-section{
+    background-color: #fff;
+    /* padding-top: 158px;
+    padding-bottom: 158px; */
+    padding: 158px 0;
+    
+}
+.main-section .hero-inner{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.main-section .hero-inner .col-left{
+    max-width: 497px;
+
+}
+.main-section .hero-inner .col-left h1{
+font-weight: 700;
+font-size: 44px;
+line-height: 60px;
+color: #21243D;
+}
+.main-section .hero-inner .col-left p{
+    margin-top: 40px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+    }
+    .main-section .hero-inner .col-left .action-button{
+        margin-top: 38px;
+        /* width: 208px;
+        height: 47px; */
+        padding: 10px 20px;
+        background: #FAB85C;
+        border-radius: 2px;
+        color: white;
+        /* line-height: 47px; */
+        text-align: center;
+        max-width: fit-content;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        color: #fff;
+        }
+.main-section .hero-inner .col-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: right;
 }
