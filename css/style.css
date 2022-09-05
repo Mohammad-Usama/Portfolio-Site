@@ -242,3 +242,38 @@ color: #21243D;
     
     margin: 0 auto;
 }
+@media all and (max-width: 600px){
+    .main-section .hero-inner{
+        flex-direction: column-reverse;
+    }
+    .main-section .col-right{
+        margin-bottom: 30px;
+    }
+    .main-section .col-left{
+        text-align: center;
+        margin: 0 20px;
+    }
+    .main-section .hero-inner .col-left .action-button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #post .post-section-inner .post-header h2{
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    #post .post-section-inner .post-header a{
+        display: none;
+    }
+    #post .post-section-inner .posts{
+        flex-direction: column;
+    }
+    .feature-section .feature-section-inner .feature-header{
+        text-align: center;
+    }
+    .feature-section .feature-section-inner .fs-list .fs-item{
+        flex-direction: column;
+    }
+    .feature-section .feature-section-inner .fs-list .fs-item img{
+        width: 455px;
+    }
+}
